@@ -43,5 +43,6 @@ mensaje = [
 ]
 
 resultado = agente.invoke({"messages": mensaje}, context=context(lista_personajes=[personajes]))
+
 print(resultado["messages"][-1].content)
 
